@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="highlightLevel" value="WARNING" />
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/movies/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/movies/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/movies/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/movies/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/movies/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/movies/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/movies/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/movies/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/movies/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/movies/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/movies/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/movies/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/movies/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/movies/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/movies/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/movies/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/movies/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/movies/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/movies/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/movies/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/movies/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/movies/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/movies/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/movies/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/movies/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/movies/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/movies/vendor/symfony/polyfill-php83" />
+      <path value="$PROJECT_DIR$/movies/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/movies/vendor/symfony/runtime" />
+      <path value="$PROJECT_DIR$/movies/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/movies/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/movies/vendor/composer" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/application/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/application/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/application/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/application/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/polyfill-php83" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/runtime" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/application/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+</project>

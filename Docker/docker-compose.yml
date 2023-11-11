@@ -1,0 +1,20 @@
+version: "3.1"
+services:
+    www:
+        build:
+          args:
+            - VHOST_CONF_PATH=container/virtual-host/
+          context: ./
+          dockerfile: Dockerfile
+        ports: 
+            - "80:80"
+        volumes:
+            - ../application:/var/www/application/
+            - ./xdebug/xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
+            - ./error_reporting.ini:/usr/local/etc/php/conf.d/error_reporting.ini
+        networks:
+            - default
+        extra_hosts:
+            - "host.docker.internal:192.168.1.35"
+volumes:
+    persistent:
