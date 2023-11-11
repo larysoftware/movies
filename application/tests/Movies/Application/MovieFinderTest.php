@@ -8,6 +8,7 @@ use App\Movies\Application\SearchCriteriaDto;
 use App\Movies\Domain\MoviesRepositoryInterface;
 use App\Movies\Domain\Movie;
 use App\Movies\Application\MovieResult;
+use App\Movies\Domain\MovieTitle;
 use App\Movies\Application\Exception\TypeIsEmptyException;
 use App\Movies\Application\Exception\FilterNotExistException;
 use PHPUnit\Framework\TestCase;
@@ -19,11 +20,11 @@ class MovieFinderTest extends TestCase
         $movieQueryMock = $this->createMock(MoviesRepositoryInterface::class);
         $movieQueryMock->expects($this->once())->method('getAll')->willReturn(
             [
-                new Movie('ab'),
-                new Movie('bc'),
-                new Movie('fx'),
-                new Movie('fff'),
-                new Movie('sdsdsd')
+                new Movie(new MovieTitle('ab')),
+                new Movie(new MovieTitle('bc')),
+                new Movie(new MovieTitle('fx')),
+                new Movie(new MovieTitle('fff')),
+                new Movie(new MovieTitle('sdsdsd'))
             ]
         );
 
@@ -38,15 +39,15 @@ class MovieFinderTest extends TestCase
         $movieQueryMock = $this->createMock(MoviesRepositoryInterface::class);
         $movieQueryMock->expects($this->once())->method('getAll')->willReturn(
             [
-                new Movie('Wb'),
-                new Movie('bc'),
-                new Movie('Wxd'),
-                new Movie('WWaf'),
-                new Movie('sdsdsd'),
-                new Movie(' Wad'),
-                new Movie('Wad '),
-                new Movie(''),
-                new Movie('Wad llll'),
+                new Movie(new MovieTitle('Wb')),
+                new Movie(new MovieTitle('bc')),
+                new Movie(new MovieTitle('Wxd')),
+                new Movie(new MovieTitle('WWaf')),
+                new Movie(new MovieTitle('sdsdsd')),
+                new Movie(new MovieTitle(' Wad')),
+                new Movie(new MovieTitle('Wad ')),
+                new Movie(new MovieTitle('')),
+                new Movie(new MovieTitle('Wad llll')),
             ]
         );
 
@@ -67,15 +68,15 @@ class MovieFinderTest extends TestCase
         $movieQueryMock = $this->createMock(MoviesRepositoryInterface::class);
         $movieQueryMock->expects($this->once())->method('getAll')->willReturn(
             [
-                new Movie(' Wb'),
-                new Movie('bc  '),
-                new Movie('  Wxd'),
-                new Movie('sd a'),
-                new Movie('sd a b'),
-                new Movie('c'),
-                new Movie('F F F '),
-                new Movie(''),
-                new Movie('Wad '),
+                new Movie(new MovieTitle(' Wb')),
+                new Movie(new MovieTitle('bc  ')),
+                new Movie(new MovieTitle('  Wxd')),
+                new Movie(new MovieTitle('sd a')),
+                new Movie(new MovieTitle('sd a b')),
+                new Movie(new MovieTitle('c')),
+                new Movie(new MovieTitle('F F F ')),
+                new Movie(new MovieTitle('')),
+                new Movie(new MovieTitle('Wad ')),
             ]
         );
 

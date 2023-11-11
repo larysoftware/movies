@@ -23,7 +23,7 @@ class MovieQuery
     {
         return array_values(
             array_map(static function (Movie $movie) {
-                return new MovieResult($movie->title);
+                return new MovieResult($movie->title->getValue());
             }, $movies)
         );
     }

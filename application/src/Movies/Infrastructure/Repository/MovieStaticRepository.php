@@ -4,6 +4,7 @@ namespace App\Movies\Infrastructure\Repository;
 
 use App\Movies\Domain\Movie;
 use App\Movies\Domain\MoviesRepositoryInterface;
+use App\Movies\Domain\MovieTitle;
 
 class MovieStaticRepository implements MoviesRepositoryInterface
 {
@@ -98,7 +99,7 @@ class MovieStaticRepository implements MoviesRepositoryInterface
     public function getAll(): array
     {
         return array_map(static function(string $title) {
-            return new Movie($title);
+            return new Movie(new MovieTitle($title));
         }, self::MOVIES);
     }
 }
