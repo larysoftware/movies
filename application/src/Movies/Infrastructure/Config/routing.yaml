@@ -1,0 +1,4 @@
+movies.find:
+  path: /movies/find
+  controller: App\Movies\Infrastructure\Controller\Movies::find
+  methods: GET
